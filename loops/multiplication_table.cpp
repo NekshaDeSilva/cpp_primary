@@ -38,13 +38,12 @@ void oprocess(int number) {
     printMultiplicationTable(number);
     storeNumber();
 }
-
 int main() {
     int number;
     cout << "Welcome to Neksha's multiplication machine" << endl;
     cout << "Enter a number you want to get the whole multiplication table of: ";
     cin >> number;
-    cin.ignore(); // Clear newline left in input buffer
+    cin.ignore(); 
     cout << "Generating the multiplication table for your homework..." << endl;
     std::this_thread::sleep_for(std::chrono::seconds(3));
     oprocess(number);
