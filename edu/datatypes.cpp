@@ -29,4 +29,29 @@ int main(){
     //you can only use double for big numbers and to get the scientificat values easdily, you might need to get int data type.
     //There's another things thast use \n \t \"\' as soon as if they are requried to use 
     
+    string theDecision;
+    cout << "Now we can dive into what is the scenario called Declaration Conflict" <<"\n\n" << endl;
+    cout << "Begin(y/n)" << endl;
+    string value12;
+
+    getline(cin, theDecision);
+    if(theDecision == "y"){
+        cout << "We just made a variable [value12], can you please give a name for it? " << "\n\n" << endl;
+        getline(cin, value12); // Get the name from user
+        cout << "You named your variable: " << value12 << endl;
+        cout << "Now, let's try to create another variable with the same name but a different type." << endl;
+
+        cout << "\n// Simulated code:\n";
+        cout << "string " << value12 << " = \"some value\";\n";
+        cout << "long " << value12 << " = 123456;\n";
+        cout << "// This will cause a declaration conflict error!\n";
+        cout << "// error: redefinition of '" << value12 << "' with a different type\n" << endl;
+
+        cout << "As you can see, C++ does not allow two variables with the same name in the same scope, even if their types are different." << endl;
+
+    }else{
+        cout << "You chose not to proceed with Declaration Conflict demo." << endl;
+    }
+
+
 }
