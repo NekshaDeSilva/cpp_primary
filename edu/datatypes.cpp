@@ -51,8 +51,9 @@ int main(){
 
     }else{
         cout << "You chose not to proceed with Declaration Conflict demo." << endl;
+        cout << "hey it's your choice, but you missed a chance to see how C++ handles variable naming conflicts." << endl;
     }
     
 
 }
-//for consistency
+//for consistency, we need to add more operation conflicts
