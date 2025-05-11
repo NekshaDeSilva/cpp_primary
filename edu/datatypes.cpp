@@ -52,6 +52,7 @@ int main(){
     }else{
         cout << "You chose not to proceed with Declaration Conflict demo." << endl;
     }
-
+    
 
 }
+//for consistency
