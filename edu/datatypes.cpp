@@ -1,7 +1,15 @@
 #include <iostream>
 #include <iomanip>
 using namespace std;
+int readDataType(){
+    int value1  = 200;
+    string value2 = "Hello";
 
+    printf("%c %lf", &value1, &value2);
+    cout << "data types: " << value1 << " " << value2 << endl;
+    return 0;
+
+}
 int main(){
     cout << "Hey What you're doing right now!" << endl;
     int datavalue = 2;
@@ -48,7 +56,8 @@ int main(){
         cout << "// error: redefinition of '" << value12 << "' with a different type\n" << endl;
 
         cout << "As you can see, C++ does not allow two variables with the same name in the same scope, even if their types are different." << endl;
-
+        readDataType();
+        
     }else{
         cout << "You chose not to proceed with Declaration Conflict demo." << endl;
         cout << "hey it's your choice, but you missed a chance to see how C++ handles variable naming conflicts." << endl;
