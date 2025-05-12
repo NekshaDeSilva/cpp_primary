@@ -2,12 +2,24 @@
 #include <iomanip>
 using namespace std;
 int readDataType(){
-    int value1  = 200;
-    string value2 = "Hello";
 
-    printf("%c %lf", &value1, &value2);
-    cout << "data types: " << value1 << " " << value2 << endl;
-    return 0;
+    // Complete the code.
+int fnumber;
+long long int  secnumber;
+char tnumber;
+double fournumber;
+double fivenmber;
+
+
+cin >>  fnumber;
+cin >> secnumber;
+cin >> tnumber;
+cin >> fournumber;
+cin >> fivenmber;
+cout << fixed << setprecision(3);
+cout << fnumber << " " << secnumber << " " << tnumber << " " << fournumber << " " << fivenmber << endl;
+
+return 0;
 
 }
 int main(){
