@@ -44,3 +44,8 @@ int assignment(){
   return 0;
 }
   
+int combinedOperators(){
+  int number = number  +5;
+  int somevalue =+ 5;
+}
+//somevalue
