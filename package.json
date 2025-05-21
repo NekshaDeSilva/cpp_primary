@@ -1,0 +1,22 @@
+{
+  "name": "cpp-practice",
+  "version": "1.0.0",
+  "description": "the official opensource c++ by @nekshadesilva",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nekshadesilva/cpp-practice.git"
+  },
+  "author": "Neksha DeSilva",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nekshadesilva/cpp-practice/issues"
+  },
+  "homepage": "https://github.com/nekshadesilva/cpp-practice#readme",
+  "dependencies": {
+    "react": "^19.1.0"
+  }
+}
