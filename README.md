@@ -1,19 +1,19 @@
 <!-- Banner SVG Animation -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=36&pause=1000&color=00BFFF&center=true&vCenter=true&width=700&lines=Welcome+to+cpp_practice!;Your+Educational+Resource+for+C%2B%2B+Learning" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=36&pause=1000&color=whitesmokecenter=true&vCenter=true&width=700&lines=Taste the C++;by NekshaDeSilva;Endrosed by OpenRockets" alt="Typing SVG" />
 </p>
 
 <p align="center">
-  <img src="https://svgshare.com/i/13rT.svg" width="200" alt="C++ Rocket" />
+  <img src="https://i.ibb.co/YB4ZZfRN/210044478.png" width="200" alt="C++ Rocket" />
 </p>
 
-<h1 align="center" style="font-family: 'Fira Code', monospace; color: #007acc;">
-  🚀 cpp_practice
+<h1 align="center" style="font-family: 'Fira Code', monospace; color:rgb(248, 248, 248);">
+  🚀 Practice C++
 </h1>
 
 <p align="center">
   <b>An open-source, educational C++ resource for beginners and enthusiasts.<br>
-  Affiliated with <a href="https://github.com/OpenRockets">OpenRockets</a>.<br>
+  Affiliated & endrosed by <a href="https://github.com/OpenRockets">OpenRockets</a>.<br>
   Contributed by <a href="https://github.com/nekshadesilva">NekshaDeSilva</a>.</b>
 </p>
 
