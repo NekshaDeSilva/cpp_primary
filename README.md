@@ -61,7 +61,8 @@ This repository is an **affiliated educational resource of [OpenRockets](https:/
 
 ## 👨‍💻 Contributed By
 
-- **Neksha DeSilva**  
+- **Neksha DeSilva** 
+  Main-contributor, Administrator of @OpenRockets
   [GitHub.com/nekshadesilva](https://github.com/nekshadesilva)
 
 ---
