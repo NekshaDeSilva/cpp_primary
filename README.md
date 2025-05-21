@@ -1,10 +1,10 @@
 <!-- Banner SVG Animation -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=36&pause=1000&color=whitesmokecenter=true&vCenter=true&width=700&lines=Taste the C++;by NekshaDeSilva;Endrosed by OpenRockets" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=36&pause=1000&color=whitesmoke&center=true&vCenter=true&width=700&lines=Taste+the+C%2B%2B;by+NekshaDeSilva;Endorsed+by+OpenRockets" alt="Typing SVG" />
 </p>
 
 <p align="center">
-  <img src="https://i.ibb.co/YB4ZZfRN/210044478.png" width="200" alt="C++ Rocket" />
+  <img style = "border-radius:100%;"src="https://i.ibb.co/YB4ZZfRN/210044478.png" width="200" alt="C++ Rocket" />
 </p>
 
 <h1 align="center" style="font-family: 'Fira Code', monospace; color:rgb(248, 248, 248);">
