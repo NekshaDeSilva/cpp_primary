@@ -6,80 +6,67 @@
 
 using namespace std;
 
-// Simulate evaluating the expression (hardcoded for now)
-int runtheSequence(const string& exp) {
-    cout << "Evaluating: " << exp << endl;
-    // For demonstration, manually compute the result of 8*(8/4)/2+4
-    int result = 8 * (8 / 4) / 2 + 4; // = 8 * 2 / 2 + 4 = 8 + 4 = 12
+// Function to evaluate and print the result of a hardcoded expression
+int evaluateExpression(const string& exp, int result) {
+    cout << "\nEvaluating: " << exp << endl;
     cout << "Result: " << result << endl;
     return result;
 }
-int correctIncorrectMeasure(const string& state){
-    cout << "Evaluating: your answer.." << endl;
-    if(state == "correct"){
-        cout<< "Correct" << endl;
 
-
-    }else{
-        cout <<  "Incorrect, Try Again!" << endl;
+// Function to check user's answer
+void checkAnswer(int userAnswer, int correctAnswer) {
+    cout << "Evaluating your answer..." << endl;
+    if (userAnswer == correctAnswer) {
+        cout << "✅ Correct!" << endl;
+    } else {
+        cout << "❌ Incorrect. The correct answer is: " << correctAnswer << endl;
     }
-    return 0;
-    
 }
+
+void countdown(int seconds) {
+    for (int i = seconds; i > 0; i--) {
+        cout << i << " second(s) left..." << endl;
+        this_thread::sleep_for(chrono::seconds(1));
+    }
+}
+
 int main() {
-    string expe = "8*(8/4)/2+4";
-    cout << "Welcome to Operator Precedence in C++!\n";
-    cout << "Let's explore how operators are evaluated in expressions.\n";
-    cout << "What's the answer of this: " << expe << "?" << endl;
-    cout << "You will receive 10 seconds..." << endl;
+    cout << "Welcome to the C++ Operator Precedence Demo!\n";
+    cout << "You'll see some expressions. Try to guess their result before time runs out.\n";
 
-    for (int i = 10; i > 0; i--) {
-        cout << i << " second(s) left" << endl;
-        this_thread::sleep_for(chrono::seconds(1));
+    struct Question {
+        string expr;
+        int answer;
+        string hint;
+    };
+
+    Question questions[] = {
+        {"8 * (8 / 4) / 2 + 4", 12, "Multiplication, division, and addition. Parentheses first."},
+        {"8 ^ 3 + 2 * 4 - 2 * 4", (8 ^ 3) + 2 * 4 - 2 * 4, "Bitwise XOR, then multiplication, then addition/subtraction."},
+        {"~4 & 2 * 2 + 10", (~4) & (2 * 2 + 10), "Bitwise NOT, multiplication, addition, then bitwise AND."},
+        {"~1 * 100 + (~1) ^ 6 ^ 5", (~1) * 100 + ((~1) ^ 6 ^ 5), "Bitwise NOT, multiplication, bitwise XOR, then addition."}
+    };
+
+    int numQuestions = sizeof(questions) / sizeof(questions[0]);
+
+    for (int i = 0; i < numQuestions; ++i) {
+        cout << "\n---------------------------------------------\n";
+        cout << "Question " << (i + 1) << ": What is the result of: " << questions[i].expr << " ?" << endl;
+        cout << "Hint: " << questions[i].hint << endl;
+        cout << "You have 10 seconds to think...";
+        cout.flush();
+        countdown(10);
+
+        int userAnswer;
+        cout << "Enter your answer: ";
+        cin >> userAnswer;
+
+        checkAnswer(userAnswer, questions[i].answer);
+
+        // Show how C++ evaluates it
+        evaluateExpression(questions[i].expr, questions[i].answer);
     }
 
-    runtheSequence(expe);
-    cout << "Would you like to take a test of Operator Presedence in C++ for XOR, OR, NOT and other operators too?" << endl;
-    this_thread::sleep_for(chrono::seconds(2));
-    expe = "8^3(2)+4-2*4";
-    cout << "What is the Answer for this: " << expe << endl;
-     for (int i = 10; i > 0; i--) {
-        cout << i << " second(s) left" << endl;
-        this_thread::sleep_for(chrono::seconds(1));
-    }
-    runtheSequence(expe);
-    cout << "Ahh That was a bit hard; So now try this:" << endl;
-    expe = "~4&2*2+10" ;
-
-    cout << "What is the Answer for this: " << expe << endl;
-     for (int i = 10; i > 0; i--) {
-        cout << i << " second(s) left" << endl;
-        this_thread::sleep_for(chrono::seconds(1));
-    }
-    runtheSequence(expe);
-    cout << "Okay, Now the test mode!" << endl;
-    cout << "\n\n" ; 
-    int the_valueReturned = runtheSequence(expe);
-    cout << "🔴 From now on, type your answer in the space given, while we are counting."<< endl;
-    expe= "~1*100(~1)^6^5";
-    cout << "What is the answer for this: " << expe << endl;
-    int the_valueEntered;
-    cin >> the_valueEntered;
-    for (int i = 10; i > 0; i--) {
-        cout << i << " second(s) left" << endl;
-        this_thread::sleep_for(chrono::seconds(1));
-    }
-   
-
-    
-    if(the_valueEntered == the_valueReturned){
-        correctIncorrectMeasure("correct");
-
-    }else{
-        correctIncorrectMeasure("incorrect");
-    }
-
-
-
+    cout << "\nThanks for playing! Review the results and try changing the expressions to experiment with operator precedence in C++.\n";
     return 0;
 }
