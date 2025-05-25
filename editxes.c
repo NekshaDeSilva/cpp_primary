@@ -16,4 +16,5 @@ int main() {
 
     printf("Thank you for using cpp_practice!\n");
     return 0;
+    
 }
