@@ -3,7 +3,6 @@
 #include <iomanip>
 #include <thread>
 #include <chrono>
-
 using namespace std;
 
 // Function to evaluate and print the result of a hardcoded expression
@@ -28,6 +27,23 @@ void countdown(int seconds) {
         cout << i << " second(s) left..." << endl;
         this_thread::sleep_for(chrono::seconds(1));
     }
+}
+
+// Corrected associativity demonstration function
+void exectuteTheAssociativity() {
+    cout << "Demonstrating Left to Right Associativity:\n";
+    std::this_thread::sleep_for(std::chrono::seconds(2));
+    string eq = "4 - 8 + 10 + 3"; // fixed assignment issue
+    cout << eq << " ?" << endl;
+    cout << "Enter your answer: ";
+    int user_ans;
+    cin >> user_ans;
+    // Evaluate expression according to C++
+    int correct = 4 - 8 + 10 + 3;
+    evaluateExpression(eq, correct);
+    checkAnswer(user_ans, correct);
+    // Clear the input buffer
+    cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 }
 
 int main() {
@@ -60,13 +76,25 @@ int main() {
         int userAnswer;
         cout << "Enter your answer: ";
         cin >> userAnswer;
-
         checkAnswer(userAnswer, questions[i].answer);
-
-        // Show how C++ evaluates it
         evaluateExpression(questions[i].expr, questions[i].answer);
-    }
 
+        // Clear input buffer (to prepare for next getline, if any)
+        cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+    }
+    cout << "Your responses have been recorded." << endl;
     cout << "\nThanks for playing! Review the results and try changing the expressions to experiment with operator precedence in C++.\n";
+    std::this_thread::sleep_for(std::chrono::seconds(2));
+    cout << "Get Ready to taste the Associativity of Operators." << endl;
+    cout << "Are you ready? (y/n)" << endl;
+    string ans_rightafter22;
+    getline(cin, ans_rightafter22);
+    if(ans_rightafter22 == "y" || ans_rightafter22 == "Y") {
+        exectuteTheAssociativity();
+    } else {
+        cout << "\n\n Thanks for playing the game. Let's go deeper when your mind changes!" << endl;
+    }
     return 0;
 }
+
+
