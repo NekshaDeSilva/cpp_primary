@@ -66,7 +66,7 @@ int main() {
         // Show how C++ evaluates it
         evaluateExpression(questions[i].expr, questions[i].answer);
     }
-
+    cout << "Your responses have been recorded."
     cout << "\nThanks for playing! Review the results and try changing the expressions to experiment with operator precedence in C++.\n";
     return 0;
 }
