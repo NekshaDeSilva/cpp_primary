@@ -1,18 +1,18 @@
-[![OpenRockets](https://img.shields.io/badge/OpenRockets-Verified%20Contributor-white?labelColor=black&style=for-the-badge&logo=Rocket&logoColor=white&link=https://www.github.com/openrockets)](https://www.github.com/openrockets)
+[![OpenRockets](https://img.shields.io/badge/OpenRockets-Verified%20Contributor-white?labelColor=black&style=for-the-badge&logo=Rocket&logoColor=white&link=https://www.github.com/openrockets")](https://www.github.com/openrockets)
 
-<p align="center">
-  <img style = "border-radius:100%;"src="https://i.ibb.co/YB4ZZfRN/210044478.png" width="200" alt="C++ Rocket" />
-</p>
-
-<h1 align="center" style="font-family: 'roboto', monospace; color:rgb(248, 248, 248);">
-  🚀 Practice C++
-</h1>
-
-<p align="center">
-  <b>An open-source, educational C++ resource for beginners and enthusiasts.<br>
-  Affiliated & endrosed by <a href="https://github.com/OpenRockets">OpenRockets</a>.<br>
-  Contributed by <a href="https://github.com/nekshadesilva">NekshaDeSilva</a>.</b>
-</p>
+<div align="center">
+  <img src="https://i.ibb.co/YB4ZZfRN/210044478.png" width="180" alt="C++ Rocket" style="border-radius: 50%;" />
+  
+  <h1 style="font-family: 'Fira Code', monospace; color: #00BFFF; margin-top: 20px;">
+    🚀 Practice C++
+  </h1>
+  
+  <b>
+    An open-source, educational C++ resource for beginners and enthusiasts.<br>
+    Affiliated & endorsed by <a href="https://github.com/OpenRockets">OpenRockets</a>.<br>
+    Contributed by <a href="https://github.com/nekshadesilva">NekshaDeSilva</a>.
+  </b>
+</div>
 
 ---
 
@@ -52,36 +52,50 @@ Whether you're a student, hobbyist, or open-source expert, you'll find valuable 
 
 ## 🚀 Affiliation
 
-This repository is an **affiliated educational resource of [OpenRockets](https://github.com/OpenRockets)**, supporting open-source learning and innovation.
+<div align="center">
+  <b>
+    This repository is an <span style="color:#00BFFF;">affiliated educational resource</span> of <a href="https://github.com/OpenRockets">OpenRockets</a>, supporting open-source learning and innovation.
+  </b>
+</div>
 
 ---
 
 ## 👨‍💻 Contributed By
 
-- **Neksha DeSilva** 
-  Main-contributor, Administrator of @OpenRockets
-  [GitHub.com/nekshadesilva](https://github.com/nekshadesilva)
+<div align="center">
+  <b>Neksha DeSilva</b><br>
+  Main-contributor, Administrator of @OpenRockets<br>
+  <a href="https://github.com/nekshadesilva">GitHub.com/nekshadesilva</a>
+</div>
 
 ---
 
 ## 🌈 Get Started
 
-1. **Clone the repository:**
-   ```sh
-   git clone https://github.com/nekshadesilva/cpp-practice.git
-2. **Browse the folders:**  
-   - `edu/` — Educational examples and concepts  
-   - `beg/` — Beginner-friendly mini-projects and demos
-
-3. **Run any `.cpp` file** with your favorite C++ compiler.
+<ol>
+  <li>
+    <b>Clone the repository:</b>
+    <pre><code>git clone https://github.com/nekshadesilva/cpp-practice.git</code></pre>
+  </li>
+  <li>
+    <b>Browse the folders:</b>
+    <ul>
+      <li><code>edu/</code> — Educational examples and concepts</li>
+      <li><code>beg/</code> — Beginner-friendly mini-projects and demos</li>
+    </ul>
+  </li>
+  <li>
+    <b>Run any <code>.cpp</code> file</b> with your favorite C++ compiler.
+  </li>
+</ol>
 
 ---
 
 ## 🛠️ Example: ASCII Donut Animation
 
-<p align="center">
+<div align="center">
   <img src="https://raw.githubusercontent.com/nekshadesilva/cpp-practice/main/assets/donut.gif" width="400" alt="ASCII Donut Animation" />
-</p>
+</div>
 
 ---
 
@@ -98,7 +112,7 @@ If you find this resource helpful, please ⭐ star the repository and share it w
 
 ---
 
-<p align="center">
+<div align="center">
   <img src="https://img.shields.io/github/stars/nekshadesilva/cpp-practice?style=social" alt="GitHub stars" />
   <img src="https://img.shields.io/github/forks/nekshadesilva/cpp-practice?style=social" alt="GitHub forks" />
-</p>
+</div>
