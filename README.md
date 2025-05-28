@@ -1,7 +1,4 @@
-<!-- Banner SVG Animation -->
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=36&pause=1000&color=white&center=true&vCenter=true&width=700&lines=Taste+the+C%2B%2B;by+NekshaDeSilva;Endorsed+by+OpenRockets" alt="Typing SVG" />
-</p>
+[![OpenRockets](https://img.shields.io/badge/OpenRockets-Verified%20Contributor-white?labelColor=black&style=for-the-badge&logo=Rocket&logoColor=white&link=https://www.github.com/openrockets)](https://www.github.com/openrockets)
 
 <p align="center">
   <img style = "border-radius:100%;"src="https://i.ibb.co/YB4ZZfRN/210044478.png" width="200" alt="C++ Rocket" />
