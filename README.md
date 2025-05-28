@@ -113,6 +113,6 @@ If you find this resource helpful, please ⭐ star the repository and share it w
 ---
 
 <div align="center">
-  <img src="https://img.shields.io/github/stars/nekshadesilva/catalystai?style=flat" alt="GitHub stars" />
-  <img src="https://img.shields.io/github/forks/nekshadesilva/catalystai?style=flat" alt="GitHub forks" />
+  <img src="https://img.shields.io/github/stars/nekshadesilva/cpp_primary?style=flat" alt="GitHub stars" />
+  <img src="https://img.shields.io/github/forks/nekshadesilva/cpp_primary?style=flat" alt="GitHub forks" />
 </div>
