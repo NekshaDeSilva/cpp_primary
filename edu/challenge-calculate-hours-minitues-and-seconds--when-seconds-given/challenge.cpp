@@ -13,6 +13,5 @@ int main() {
     cout << hours << endl;
     cout << minutes << endl;
     cout << seconds << endl;
-
     return 0;
 }
