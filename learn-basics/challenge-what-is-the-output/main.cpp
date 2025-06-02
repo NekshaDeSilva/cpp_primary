@@ -27,8 +27,31 @@ int main(){
         case 'U':
         cout << "This will be printed because there are allied data types such as charorint or charOrInt" << endl;
         break;
+
+    }
+    //The importance of using the break stement in cpp switch.
+    //If we dont use the break statement in C++, the statements which after the correct statement will also be executed and they'll be shown with also with the correct answer.
+    //example:
+    int somevalues_dec = 96.9;
+    switch (somevalue) {
+        case 20 ... 50:
+        cout << "You are failed!" << endl;
+        break;
+        //The above shows the correct method of using the switch cases with the proper usage of break statements;
+        case  80 ... 120:
+        cout << "You've got an A pass! very good!" << endl;
+        case 130 ... 2000:
+        cout << "You've got an A+! well done!!" << endl;
+        default:
+        cout << "You're not legble to ask about marks, you're either not attempted or cheated;" << endl;
         
     }
-
+    //Whatr will be the answer? YES, the answr is:
+    /* You've got an A pass! very good!
+       You've got an A+! well done!!
+       You're not legble to ask about marks, you're either not attempted or cheated;*/
+    
+    //This is because after the case 80 ... 120 , the case has got no breaks, so it has executed the all statemnts until the whole switch funtion is gonna be closed.
+    
 }
 
