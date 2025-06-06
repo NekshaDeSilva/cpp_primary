@@ -13,7 +13,7 @@ int main(){
 
     for (int theMainNumber =6; theMainNumber < 10; theMainNumber++){
       cout << "The Table of " << theMainNumber << " is" << endl;
-      for (int innernumber = 1; innernumber< 11; innernumber++){
+      for (int innernumber = 1learn-cpp-loops\nested-loops-cpp.cpp; innernumber< 11; innernumber++){
         cout << theMainNumber << " x " << innernumber << " = " << (theMainNumber * innernumber) << endl;
 
       }
