@@ -39,6 +39,9 @@ int main(){
     //Finding the cos value of something vaia usage of cos() function
     double somevaluetobe_cos = 43.87;
     cout << "The cos value of " << somevaluetobe_cos << " is " << cos(somevaluetobe_cos) << endl;
+    //To find the tangent value;
+    double somevaluetobe_tangent= 55.9;
+    cout << "The tangent value of " << somevaluetobe_tangent << " is " << tan(somevaluetobe_tangent) << endl;
     
 
 
