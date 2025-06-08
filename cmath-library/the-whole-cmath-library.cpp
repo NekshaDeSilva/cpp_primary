@@ -26,6 +26,21 @@ int main(){
     //IN DOUBLE 
     float somevalue112_dbl = -898.59884;
     cout << setprecision(8) /*set the setprecision to show up the all decimals. */ << "The absolute value of -898.59884 is " << fabs(somevalue112_dbl) << endl;
+    cout << "\n\n" << endl;
+
+    //CMATH usage of PI
+    double pi = M_PI;
+    cout << setprecision(56) <<  pi << endl;
+    
+    //CMATH USAGE OF TRIGONOMETRY
+    //Finding the sin value of something via usage if sin() fuintiuon
+    double somevalue113_sin = 86.8;
+    cout <<  setprecision(4) << "The sin value of " << somevalue113_sin << " is " << sin(somevalue113_sin) << endl;
+    //Finding the cos value of something vaia usage of cos() function
+    double somevaluetobe_cos = 43.87;
+    cout << "The cos value of " << somevaluetobe_cos << " is " << cos(somevaluetobe_cos) << endl;
+    
+
 
 
 }
