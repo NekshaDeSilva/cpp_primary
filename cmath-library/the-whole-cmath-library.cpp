@@ -8,8 +8,12 @@
 
 using namespace std;
 int main(){
-    //CMATH : findig the mod
+    //CMATH : findig the remainder with fmod()
     int cmath_mod_int1 = 10;
-    cout << "The Modulus of " << cmath_mod_int1 << " is " << fmod(cmath_mod_int1, 2);
-    
+    cout << "The Modulus of " << cmath_mod_int1 << " is " << fmod(cmath_mod_int1, 2) << endl;
+    //CMATH : finding the remainder with remainder()
+    cout << "The remainder is " << cmath_mod_int1 << " divided by 3 is " << remainder(cmath_mod_int1, 3) << endl;
+    cout << "\n\n" << endl;
+
+    //CMATH 
 }
