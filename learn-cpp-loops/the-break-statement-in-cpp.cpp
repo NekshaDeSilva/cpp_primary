@@ -24,7 +24,6 @@ int main(){
     for (;;) {
         cout << "Shopkeeper: Hey do you wanna buy apples?" << endl;
         firsttimed =0;
-        
         // Correct: theResponse returns a string, so we can print it directly
         cout << theResponse(firsttimed) << endl;
         applecount--;
