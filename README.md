@@ -1,7 +1,11 @@
 [![OpenRockets](https://img.shields.io/badge/OpenRockets-Verified%20Contributor-white?labelColor=black&style=for-the-badge&logo=Rocket&logoColor=white&link=https://www.github.com/openrockets")](https://www.github.com/openrockets)
 
+ ![ChatGPT_Image_May_10__2025__11_25_10_AM-removebg-preview](https://github.com/user-attachments/assets/9b98a9dc-fe22-46c2-9743-aafed255c5b7)
+ 
 <div align="center">
-  <img src="https://i.ibb.co/YB4ZZfRN/210044478.png" width="180" alt="C++ Rocket" style="border-radius: 50%;" />
+
+
+
   
   <h1 style="font-family: 'Fira Code', monospace; color: #00BFFF; margin-top: 20px;">
     🚀 Practice C++
