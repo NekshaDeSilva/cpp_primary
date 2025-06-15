@@ -115,6 +115,7 @@ Feel free to open issues, submit pull requests, or suggest new learning topics.
 If you find this resource helpful, please ⭐ star the repository and share it with your friends and colleagues!
 
 ---
+![Untitled-1](https://github.com/user-attachments/assets/1925a98f-ef73-413e-adc8-6f3eb153fc37)
 
 <div align="center">
   <img src="https://img.shields.io/github/stars/nekshadesilva/cpp_primary?style=flat" alt="GitHub stars" />
