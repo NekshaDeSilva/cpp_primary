@@ -1,14 +1,10 @@
-[![OpenRockets](https://img.shields.io/badge/OpenRockets-Verified%20Contributor-white?labelColor=black&style=for-the-badge&logo=Rocket&logoColor=white&link=https://www.github.com/openrockets")](https://www.github.com/openrockets)
 
- ![ChatGPT_Image_May_10__2025__11_25_10_AM-removebg-preview](https://github.com/user-attachments/assets/9b98a9dc-fe22-46c2-9743-aafed255c5b7)
- 
-<div align="center">
-
-
-
-  
+  <div align="left">
+  <img src="https://img.shields.io/github/stars/nekshadesilva/cpp_primary?style=for-the-badge" alt="GitHub stars" />
+  <img src="https://img.shields.io/github/forks/nekshadesilva/cpp_primary?style=for-the-badge" alt="GitHub forks" />
+</div>
   <h1 style="font-family: 'Fira Code', monospace; color: #00BFFF; margin-top: 20px;">
-    🚀 Practice C++
+    cpp_primary - Practice C++
   </h1>
   
   <b>
@@ -117,7 +113,4 @@ If you find this resource helpful, please ⭐ star the repository and share it w
 ---
 ![Untitled-1](https://github.com/user-attachments/assets/1925a98f-ef73-413e-adc8-6f3eb153fc37)
 
-<div align="center">
-  <img src="https://img.shields.io/github/stars/nekshadesilva/cpp_primary?style=flat" alt="GitHub stars" />
-  <img src="https://img.shields.io/github/forks/nekshadesilva/cpp_primary?style=flat" alt="GitHub forks" />
-</div>
+
