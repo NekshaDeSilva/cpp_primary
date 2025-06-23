@@ -1,6 +1,6 @@
 
   <div align="center">
-  <img src="https://img.shields.io/github/stars/nekshadesilva/cpp_primary?style=plastic" alt="GitHub stars" />
+  <img src="https://img.shields.io/github/stars/nekshadesilva/cpp_primary?style=flat" alt="GitHub stars" />
   <img src="https://img.shields.io/github/forks/nekshadesilva/cpp_primary" alt="GitHub forks" />
 </div>
   <h1 style="font-family: 'Fira Code', monospace; color: #00BFFF; margin-top: 20px;">
