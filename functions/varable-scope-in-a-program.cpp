@@ -3,20 +3,25 @@
 #include <string>
 using namespace std;
 
-    //There are two types of scopes in a program. 
-    //Local scopes and a global scope
+// Global variable - accessible anywhere in the program
+string globe = "Earth";
 
+int getNumberPeople(){
+    // Local variable - only accessible in this function
+    long long int count = 10; // Changed to a small number for demonstration
+    return count;
+}
 
-    string globe = "Earth"; //Global variable
-    int getNumberPeople(){
-        long long int count = 800000000; //local variable. This will only available inside the getNumberPeople() fucntion.
-        return count;
-
+int main(){
+    // Local variable - only accessible in main()
+    string continent = "America";
+    int numberoflives = getNumberPeople();
+    
+    for(int i = 1; i <= 5; i++){
+        // i is block-scoped - only accessible in this loop
+        cout << "You are person #" << i << " out of " << numberoflives 
+             << " people in " << continent << " on the planet " << globe << endl;
     }
-    int main(){
-        string continent = "America"; //Another local variable. Will be only available inside the main() function scope.
-        int numberoflives = getNumberPeople();
-        for(int i = 1; i < numberoflives; i++){
-            cout << "You are the " << numberoflives << " person in the " << continent << " in the planet of " << globe << endl;
-        }
-    }
+    
+    return 0;
+}
