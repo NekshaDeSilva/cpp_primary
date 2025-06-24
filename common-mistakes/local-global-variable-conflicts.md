@@ -10,6 +10,6 @@ int main() {
 ```
 ### will it be 20 or 3? 
 
-### The answer is 20. Because when a varible is redeclared or recreated inside a local scope such as a function, It'll start treating it as the top-priority. Even when a global variable exist.
+### The answer is 20. Because when a varible is redeclared or recreated inside a local scope such as a inside a function, It'll start treating it as the top-priority. Even when a global variable exist.
 
 # So the answer is 20.
