@@ -14,7 +14,7 @@ using namespace std;
 
     }
     int main(){
-        int continent = "America"; //Another local variable. Will be only available inside the main() function scope.
+        string continent = "America"; //Another local variable. Will be only available inside the main() function scope.
         int numberoflives = getNumberPeople();
         for(int i = 1; i < numberoflives; i++){
             cout << "You are the " << numberoflives << " person in the " << continent << " in the planet of " << globe << endl;
