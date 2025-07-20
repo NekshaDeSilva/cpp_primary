@@ -15,16 +15,27 @@ void  printingNumbers(int status =1, int start = 10){
     }else{
         cout << start << endl;
         start--;
+        printingNumbers(0, start);
 
     }
 
+}
+// Obataining a factorial is another recursive method.
+
+int makeitfactorial(int factorialNum) {
+    if (factorialNum == 0 || factorialNum == 1)
+        return 1; // base case
+        factorialNum -=1;
+    return factorialNum * makeitfactorial(factorialNum);
 }
  int main(){
     cout << "Welcome to the countdown meter." << endl;
     cout << "Please enter the number you wanna start counting from" << endl;
     int inputnumber_as_the_startingpoint;
-    getline(cin, inputnumber_as_the_startingpoint);
+    cin >> inputnumber_as_the_startingpoint;
     printingNumbers(0,inputnumber_as_the_startingpoint);
+    cout << "THE factorial of 10 is, " << makeitfactorial(10) << endl;
+
     return 0;
 
 }
