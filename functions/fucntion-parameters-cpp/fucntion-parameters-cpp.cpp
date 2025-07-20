@@ -26,3 +26,6 @@ int main(){
     cout << "Your location confirmed as " << location_granted << endl;
     
 } 
+
+
+//test cases
