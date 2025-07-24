@@ -4,12 +4,4 @@
 
 using namespace std;
 
-//Reversing a number 
-
-int reverse(int unrev){
-    if(unrev == )
-}
-int main(){
-    
-
-}
+// THIS IS KEPT UNTILL I LEARN THINGS ABOUT ARRAYS
