@@ -1,0 +1,14 @@
+the next phrase for arrays to do:
+🔹 Prefix sums
+
+🔹 Sliding window
+
+🔹 Basic greedy on arrays
+
+🔹 Sorting + custom logic
+
+🔹 Frequency maps 
+
+<< these things are not on the course.
+
+
