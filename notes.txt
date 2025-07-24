@@ -11,4 +11,34 @@ the next phrase for arrays to do:
 
 << these things are not on the course.
 
+............................................................................................
+
+
+Basic Sorting Algorithms (Manual)
+
+Bubble Sort
+
+Selection Sort
+
+Insertion Sort
+(Good for learning the fundamentals — not efficient for large data.)
+
+STL Sorting (Fastest for contests)
+
+sort(arr, arr + n);
+
+sort(vec.begin(), vec.end());
+
+With custom comparators
+
+Practice Sorting Problems
+
+Find 2nd largest/smallest
+
+Sort array of pairs
+
+Sort based on frequency
+
+Sort 2D arrays by row/column sum
+
 
