@@ -3,11 +3,13 @@
 #include <string>
 
 using namespace std;
-int recurse(int number);
+
+//Reversing a number 
+
+int reverse(int unrev){
+    if(unrev == )
+}
 int main(){
     
-}
-
-int recurse(int number){
 
 }

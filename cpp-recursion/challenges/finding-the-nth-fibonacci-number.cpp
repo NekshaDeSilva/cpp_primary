@@ -4,14 +4,32 @@
 #include <thread>
 using namespace std;
 
-//HOLDED FOR A WHILE CZ IT'S HARD FOR NOW.
-int fibonacci(int n){
-    for(int i; )
-
+//The fibonacci equation is F(n) = (n-1) + (n-2)
+long long int fibonacci(long long int nth){
+    if(nth ==0){
+        return 0;
+    }else if(nth == 1){
+        return 1;
+        
+       }else{
+       return fibonacci(nth-1) + fibonacci(nth-2);
+    }
 }
-
 int main(){
-    cout << fibonacci(5);
-    return 0;
+    cout << "Which fibonacci number do you want to see?" << endl;
+    
+    string uservalue;
+    int value;
+    getline(cin, uservalue);
+    if(uservalue.empty() == true){
+        cout << "You cancelled the process." << endl;
+        return 0;
+    }else{
+        value  = stoi(uservalue);     
+        long long int result  = fibonacci(value);     
+        cout << "Fibonacci number " << value << " is: " << result << endl;
+    }
+    
+   
 
 }
