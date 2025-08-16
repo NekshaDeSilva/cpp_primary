@@ -24,4 +24,5 @@ void goFactorial(int input){
         
     }
     cout << input;
+
 }
