@@ -22,3 +22,4 @@ int main(){
     for (int i=0, )
 }
 //we have to create a 2d array map, not a linear one. I'll be back.
+//I will do this.
