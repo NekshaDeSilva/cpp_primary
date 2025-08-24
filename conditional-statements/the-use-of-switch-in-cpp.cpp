@@ -16,7 +16,6 @@ int main(){
     this_thread::sleep_for(chrono::seconds(2));
     cout << "Teacher : Number 75795, Your mark is "<< mark << ", please come to me to see your grade" << endl;
     this_thread::sleep_for(chrono::seconds(2));
-
     cout << "You : My marks is "  << mark << ", and what's my grade Teacher?" << endl;
     //Here, the ifelse comes to rescue you!
     
