@@ -1,6 +1,7 @@
 #include <iostream>
 #include <iomanip>
 #include <string>
+using namespace std;
 int max_of_two(int a, int b) {
     if (a > b) {
         return a;
