@@ -12,3 +12,6 @@ Cpp pointers are a some sort of variable that remebers the memory adddresses of 
 4. long double: 8, 16 bytes
 5. Char: 1 Byte
 6. Bool: 1 or 0, 1 Byteb
+A pointer is an address to a a variabe and it shows not the value of the varaible but the address where it as saved or located in.
+
+
