@@ -28,3 +28,6 @@ int main(){
 ```
 ### In the above code snippet. the length of the ```somevalue``` is 9. But the size of the integer can be far more big.
 ### In the above example, the length of the pointer ```pointer``` can depend on the size of the pointer address and it is not an absolute or a fixed value. BUT, the SIZE of the pointer is always 8 Bit on 64-bit operating systems and 4-bits on 32 bit operating systems.
+
+## What is ```dereferencing```
+Dereferencing in opinters is like when pointers are lke the map; the pathway, dereferencing is like asking the map to go to the location and "tell me the value of that thing where the actual location is in."
