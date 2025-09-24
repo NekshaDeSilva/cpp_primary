@@ -18,3 +18,6 @@
 - Arithmetic Operators
 - Comparison Operators
 - Logical Operators
+
+## Today completely sucked off. I could not imaging how behind and how poor knowledge i have in cpp.
+### Anyway- this is just the beginning.
