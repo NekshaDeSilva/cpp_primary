@@ -27,5 +27,17 @@ int main(){
 
     int *pointer = nullptr;
     cout << pointer; // 0
+    int *pointer = nullptr;
+}
+
+//Dereferending a pointer.
+int main(){
+    int somevalue_stored = 453;
+    int *somevalue_location = &somevalue_location; //In here, i have taken the address where the somevlaue is stored in. 
+    
+    // SO DEREFERENCING IS JUST A ANOTHER KIND OF A METHOD TO seek the value of the variable which te address is pointing to, and then by dereferencing, we can get the value not by directly decaring the variable idenatifier, but by using its' address.
+    cout << somevalue_stored; //BASIC METHOD: Taking the valueof the variable by using its identtifier.
+
+    cout << *somevalue_location; // DEREFERENCING.
     
 }
