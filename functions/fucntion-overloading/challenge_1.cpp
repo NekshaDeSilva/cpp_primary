@@ -25,9 +25,10 @@ int sqrlength(int rad){
 }
 int main(){
 int a,b,r;
-cin >> a >> b >> c;
+cin >> a >> b >> r;
 for (int i = 0; i < 3;  i++){
-    cout << 
+    cout << sqrlength(a) << endl;
+
 }
 return 0;
 
