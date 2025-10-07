@@ -13,12 +13,12 @@ int sqrlength(int side ){
     return area;
     
 }
-int sqrlength(int side){
+int sqrlength(long int side){
     int s_area = 6* side^2;
     return s_area;
     
 }
-int sqrlength(int rad){
+int sqrlength(double rad){
     int rad_ =   2* (3.14) * rad;
     return rad_;
 
