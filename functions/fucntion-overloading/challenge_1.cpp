@@ -8,28 +8,29 @@ Use these functions to print the area of the square, the surface area of the cub
 #include <iomanip>
 #include <cmath>
 using namespace std;
-int sqrlength(int side ){
-    int area = side^2;
+double sqrlength(int side ){
+    double area = side * side;
     return area;
     
 }
-int sqrlength(long int side){
-    int s_area = 6* side^2;
+double sqrlength(long int side){
+    double s_area = 6 * side * side;
     return s_area;
     
 }
-int sqrlength(double rad){
-    int rad_ =   2* (3.14) * rad;
-    return rad_;
+double sqrlength(double rad){
+    double area = 3.14 * rad * rad;
+    return area;
 
 }
 int main(){
-int a,b,r;
+int a;
+long int b;
+double r;
 cin >> a >> b >> r;
-for (int i = 0; i < 3;  i++){
-    cout << sqrlength(a) << endl;
-
-}
+cout << sqrlength(a) << endl;
+cout << sqrlength(b) << endl;
+cout << sqrlength(r) << endl;
 return 0;
 
 }
