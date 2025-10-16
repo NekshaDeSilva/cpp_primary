@@ -21,6 +21,8 @@ int main(){
     new int somevalued; // This is a variable went to the heap memeory /permanent unless deleted.
 
 
-    
+
 
 }
+
+
