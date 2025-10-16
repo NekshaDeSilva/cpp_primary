@@ -4,13 +4,21 @@
 #include <thread>
 
 using namespace std;
-int rect(){
+int rect(int* ptr, int length){
+    int w,h; 
+    w = ptr[0];
 
+    h  = ptr[1];
+    return w*h;
+    
 }
 int main(){
-srand();
-int width, length;
-width = 6;
-length = rand()*10
+int rectarray [2] ={123,23};
+int* prectarray = rectarray;
+
+int area = rect(prectarray, 2);
+cout << area;
+
+
 
 }
