@@ -12,18 +12,19 @@ void update(int* pa, int* pb){
     } 
     *pa = temp;
     *pb = stemp;
-    cout << *pa << " " << *pb;
 
-}
+}   
 int main(){
 
     int a,b;
-    a= 3432, b=48;
+    cin >> a >> b;
     int *pa = &a, *pb = &b;
     update(pa,pb);
+    cout << a << endl;
+    cout << b << endl;
+    return 0;
 
 }
-
 /*A pointer in C++ is used to share a memory address among different contexts (primarily functions). They are used whenever a function needs to modify the content of a variable, but it does not have ownership.
 
 In order to access the memory address of a variable, , prepend it with  sign. For example, &val returns the memory address of .
