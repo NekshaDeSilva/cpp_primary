@@ -18,7 +18,7 @@ double sqrlength(long int side){
     return s_area;
     
 }
-double sqrlength(double rad){
+double sqrlength(int rad){
     double area = 3.14 * rad * rad;
     return area;
 
