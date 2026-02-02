@@ -20,6 +20,7 @@ void goFactorial(int input){
         input = input* i;
         if(i ==1){
            break;
+           
         }
         
     }
